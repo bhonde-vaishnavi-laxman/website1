@@ -1,0 +1,105 @@
+#h1{
+    text-align: center;
+    font-size: 100px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-left-radius: 4000px solid black;
+
+}
+
+body{
+    background-color: rgb(13, 52, 5);
+}
+#v{
+    text-align: center;
+    font-size: 60px;
+}
+.con{
+    border: 5px solid white;
+    background-image: url("con.jpj.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 1480px;
+    align-items: center;
+}
+#h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.from{
+    position: relative;
+    left:800px;
+    height: 400px;
+    width: 400px;
+    border: 4px solid white;
+    background-color: white;
+}
+#id{
+    text-align: center;
+}
+input:hover{
+    background-color:palevioletred;
+    font-size: 20px;
+    font-style: italic;
+    border: 2px solid black;
+    transition: all 2s steps(3);
+}
+input{
+    position: relative;
+    left:50px;
+    top:15px;
+    height: 20px;
+    width: 300px;
+    text-align: center;
+}
+.pho{display: flex;
+    justify-content: center;
+    color: rgb(67, 200, 19);
+    font-size: 25px;
+    position: relative;
+    bottom: 390px;
+    margin-right: 500px;
+
+    }
+.emali{
+    display: flex;
+    justify-content: center;
+    color: rgb(67, 200, 19);
+    font-size: 25px;
+    position: relative;
+    bottom: 300px;
+    margin-right: 500px;
+
+}
+.hh{
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    bottom: 400px;
+    font-size: 60px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color:aliceblue;
+    font-size: 20px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    color: rgb(67, 200, 19);
+    font-size: 25px;
+    position: relative;
+    bottom: 400px;
+    margin-right: 500px;
+}

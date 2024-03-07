@@ -1,0 +1,158 @@
+#he{
+    color: rgb(212, 94, 4);
+    font-size: 38px; 
+
+}
+#navbar{
+    padding-inline-start: 200px;
+    position: relative;
+    bottom:40px;
+    justify-content:center;
+    display: inline;
+    color: aliceblue;
+}
+a{
+   margin-right: 100px;
+   position: relative;
+   top:15px;
+   left:16px;
+   bottom: 20px;
+   color:aliceblue;
+   font-size: 15px;
+}
+body{
+    background-image: url(web.jpj.jpg);
+    background-size: cover;
+}
+#b1{
+    background-color: rgb(212, 94, 4);
+    border: 2px;
+    border-color: rgb(212, 94, 4);
+}
+#h{
+    color: white;
+    font-size:35px;
+    position: relative;
+    top:25px;
+
+}
+#l{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: 30px;
+}
+#h1{
+    color: rgb(212, 94, 4);
+    font-size: 45px;
+}
+#b2{
+    background-color: rgb(212, 94, 4);
+    position: relative;
+    bottom: 80px;
+}
+#fr{
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: black;
+    position: relative;
+    left:1100px;
+    bottom:500px;
+    
+}
+#h3{
+    height: 4px ;
+    width: 8px ;
+    border-radius: 2px;
+}
+button{
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(212, 94, 4);
+    color: rgb(237, 174, 126);
+    position: relative;
+    left: 60px;
+      top: 15px;
+    
+
+}
+button:hover{
+    background-color: rgb(212, 94, 4);
+    border: 2px solid black;
+    color: lightsalmon;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(4);
+    font-size: 18px;
+    font-style: italic;
+    transform: scale(20px);
+
+}
+@keyframes coloranimate{
+    from{
+        background-color: orange
+    }
+    to{
+        background-color: orangered;
+    }
+
+}
+
+button{
+    animation-name: coloranimate;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+#p1{
+    color: beige;
+}
+input{
+    position: relative;
+    left:60px;
+    top:15px;
+}
+#p2{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+}
+#p3{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 58px;
+    font-size: 25px;
+    left:50px;
+}
+#si{
+    position: relative;
+    bottom: 25px;
+    left:120px;
+    color: orangered;
+    
+    
+}
+#lo{position: relative;
+    bottom: 90px;
+     left:150px;
+
+}
+
+
+p{
+    position: relative;
+    bottom: 50px;
+}
+#img{
+    height: 400px;
+    width: 350px;
+    background-color: aqua;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+}
